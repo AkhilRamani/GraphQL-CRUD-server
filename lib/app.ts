@@ -4,7 +4,7 @@ import * as mongoose from 'mongoose';
 import { dbconfig } from './dbconfig';
 import {Request, Response} from 'express';
 import * as graphqlHTTP from 'express-graphql';
-import schema from './schema/user.schema';
+import schema from './user/user.schema';
 import * as cors from 'cors'
 
 class App {
